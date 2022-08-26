@@ -1,2 +1,6 @@
-- name: nbdime-git-diff
-  uses: raybellwaves/nbdime-git-diff-action@0.0.1
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: nbdime-git-diff
+      uses: raybellwaves/nbdime-git-diff-action@0.0.1
